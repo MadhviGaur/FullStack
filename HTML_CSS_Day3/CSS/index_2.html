@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model & Specificity</title>
+<style>
+    /* body,p{
+        margin:0px;
+    } */
+    *{
+        margin:0;
+        padding:0;
+    }
+    /* div{
+        margin: 16px;
+        padding:30px;
+        border-width: 4px;
+        border-color: yellow;
+        border-style: solid;
+        border: 7px dashed black;
+    } */
+    .b-m{
+      /*  margin: 16px;*/
+        /*margin:auto;*/
+        box-sizing: content-box;
+        margin-top:10px ;
+        margin-bottom:20px ;
+        margin-left:auto;
+        margin-right:auto;
+        padding:30px;
+        /* border-width: 4px;
+        border-color: yellow;
+        border-style: solid; */
+        border: 7px dashed black;
+        width:400px;
+        text-align:center;
+        height:200px;
+    }
+</style>
+</head>
+<body>
+    <div class="b-m">Hello</div>
+    <div class="b-m">ABES</div>
+    <br/><br/>
+    <span class="b-m">Hello</span>
+    <span class="b-m">ABES</span>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <p>Hello</p>
+    <p>ABES</p>
+</body>
+</html>
