@@ -1,0 +1,82 @@
+/* h1{
+    background-color:blue;
+}  */
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: red;
+}
+
+.title {
+    color: green;
+}
+
+#t1 {
+    color: black;
+}
+
+p{
+    background-color: aqua;
+}
+
+.para{
+    background-color: yellow;
+}
+
+p.para{
+    background-color: grey;
+}
+
+.para.text{
+    background-color:blueviolet;
+} */
+
+
+/*-----Combinators--------*/
+/* div>p{
+    text-align: center;
+    background-color: yellow;
+    color:brown;
+}
+div p{
+    color:pink;
+} */
+/* section{
+    color:pink;
+} */
+/* p+div{
+    background-color: aqua;
+}
+div+p{
+    background-color: red;
+} */
+/* p+p+p{
+    background-color: pink;
+} */
+
+ /*===Pseudo Classes====*/
+
+/* p:hover{
+    background-color: brown;
+}
+a:visited{
+    color: green;
+} */
+
+button{
+    padding:8px 19px;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+    font-size:18px;
+    border:none;
+    box-shadow: 4px 4px 6px 6px lightgreen;
+}
+
+button:hover{
+   background-color:blueviolet;
+   scale:1.2; 
+   transition:all 700ms ease;
+}
