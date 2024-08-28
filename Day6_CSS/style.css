@@ -1,0 +1,167 @@
+/*-----position-------*/
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.parent{
+    border: 1px solid violet;
+    width: 200px;
+    height:200px;
+}
+
+.child{
+    border:1px solid blue;
+    height:60px;
+    width: 60px;
+}
+
+.c2{
+    position: relative;
+    right: -60px;
+   
+    
+}
+
+.c3{
+    position: relative;
+    left: 80px;
+   
+} */
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:300vh;
+}
+
+.parent{
+    border: 1px solid violet;
+    width: 200px;
+    height:200px;
+}
+
+.child{
+    border:1px solid blue;
+    height:60px;
+    width: 60px;
+} */
+
+/* .c3{ */
+  /* position: absolute;c4 will be overlap on c3  */
+  /* right:0;
+  top: 0;
+} */
+/* .c3{
+    position: fixed;
+    right:0;
+    top: 0;
+  } */
+
+  /* .c1{
+    position:relative;
+    z-index:1;
+    
+  }
+  .c2{
+    position: absolute;
+    top:-60px;
+   
+  }
+  .c3{
+    position: absolute;
+    top:-60px;
+  }
+  .c4{
+    position:relative;
+    z-index:1;
+    
+  } */
+/* .parent{
+    background-color: yellow;
+    border:1px solid red;
+    height: 200vh;
+}
+.child{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    position: sticky;
+    top:10px;
+} */
+
+/* for Pseudo Elements */
+/* p::after{
+    content:'* hi i m madhvi';
+    font-size:20px; 
+    color:red;
+    background-color: aqua;
+} */
+
+/* <!-- for website responsive for laptop and mobile- media queries --> */
+/* div{
+    padding: 16px 24px;
+    width: 20vw;
+    background-color: yellow;
+    margin:auto;
+}
+img{
+    width:200px;
+}
+button{
+    background-color: green;
+    border-radius: 20px;
+    width:200px;
+}
+
+    
+@media(400px<width<=768px){
+
+    div{
+        background-color: green;
+        width: 80vw;
+    }
+    h1{
+        font-size: 14px;
+    }
+    button{
+        background-color:yellow;
+        width:100px;
+           }
+    img{
+        width:80px;
+        }
+}
+
+@media(width<=500px){
+    *{
+        color:red;
+    }
+} */
+/* for Animation */
+.ball{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background-color: aquamarine;
+    position:absolute;
+    animation-name: circulation;
+    animation-duration: 4s;
+
+}
+@keyframes circulation {
+    from{
+        transform:translateX(12px);
+        }
+    to{
+        transform:translateX(200px);
+        }
+    
+}
+
+
